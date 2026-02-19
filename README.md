@@ -14,7 +14,7 @@ El objetivo es validar el correcto funcionamiento del sistema desde diferentes e
 ---
 
 # 🏗 Estructura del Proyecto
-
+```bash
 relatos-de-papel-qa
 │
 ├── pruebas-aceptacion → Cypress (Pruebas E2E)
@@ -25,7 +25,7 @@ relatos-de-papel-qa
 ├── cypress.config.js
 ├── package.json
 └── README.md
-
+```
 
 ---
 
@@ -65,7 +65,7 @@ npx cypress run --browser chrome
 npx cypress open
 ```
 
-`📂 Evidencias generadas
+## 📂 Evidencias generadas
 🎥 Videos:
 pruebas-aceptacion/cypress/videos/
 
@@ -74,21 +74,21 @@ pruebas-aceptacion/cypress/screenshots/
 
 ---
 
-#🔌 2️⃣ Pruebas API – RestAssured + JUnit 5
+# 🔌 2️⃣ Pruebas API – RestAssured + JUnit 5
 ## 📁 Ubicación
 pruebas-api/api-tests
 
-##▶ Ejecutar pruebas
+## ▶ Ejecutar pruebas
 cd pruebas-api/api-tests
 mvn clean test
 
-##📊 Resultado esperado
+## 📊 Resultado esperado
 Tests run: 5
 Failures: 0
 Errors: 0
 BUILD SUCCESS
 
-##📂 Evidencias automáticas
+## 📂 Evidencias automáticas
 Se generan archivos de evidencia en:
 target/evidencias/
 
@@ -104,34 +104,34 @@ Cada prueba genera un archivo .txt con:
 ##📁 Ubicación
 pruebas-interaccion/selenium-tests
 
-##▶ Ejecutar pruebas
+## ▶ Ejecutar pruebas
 cd pruebas-interaccion/selenium-tests
 mvn test
 
-##📊 Resultado esperado
+## 📊 Resultado esperado
 Tests run: X
 Failures: 0
 Errors: 0
 BUILD SUCCESS
 
-##🧪 Escenarios automatizados
+## 🧪 Escenarios automatizados
 ✔ Compra exitosa
 ✔ Compra sin datos (validación de errores)
 ✔ Flujo completo de checkout
 
 ---
 
-#🔥 4️⃣ Pruebas de Carga – JMeter
-##📁 Ubicación
+# 🔥 4️⃣ Pruebas de Carga – JMeter
+## 📁 Ubicación
 pruebas-carga/
 
-##▶ Ejecutar
+## ▶ Ejecutar
 1. Abrir Apache JMeter
 2. Cargar archivo .jmx
 3. Configurar número de usuarios
 4. Ejecutar prueba
 
-##📊 Métricas recomendadas
+## 📊 Métricas recomendadas
 Throughput
 Tiempo promedio de respuesta
 Percentil 90 / 95
