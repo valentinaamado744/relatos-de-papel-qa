@@ -50,13 +50,92 @@ Además:
 
 ## 📁 Ubicación
 pruebas-aceptacion/
+
 ## ▶ Instalación (si es primera vez)
 Desde la raíz del proyecto:
 ```bash
 npm install
-
+```
 ## ▶ Ejecutar en modo headless (CI / entrega académica)
+```bash
 npx cypress run --browser chrome
-
+```
 ## ▶ Ejecutar en modo interactivo (debug visual)
+```bash
 npx cypress open
+```
+
+`📂 Evidencias generadas
+🎥 Videos:
+pruebas-aceptacion/cypress/videos/
+
+📸 Screenshots (en caso de fallo):
+pruebas-aceptacion/cypress/screenshots/
+
+---
+
+#🔌 2️⃣ Pruebas API – RestAssured + JUnit 5
+## 📁 Ubicación
+pruebas-api/api-tests
+
+##▶ Ejecutar pruebas
+cd pruebas-api/api-tests
+mvn clean test
+
+##📊 Resultado esperado
+Tests run: 5
+Failures: 0
+Errors: 0
+BUILD SUCCESS
+
+##📂 Evidencias automáticas
+Se generan archivos de evidencia en:
+target/evidencias/
+
+Cada prueba genera un archivo .txt con:
+- Request enviado
+- Response recibida
+- Status code
+- Body completo
+
+---
+
+# 🖥 3️⃣ Pruebas UI – Selenium + Cucumber
+##📁 Ubicación
+pruebas-interaccion/selenium-tests
+
+##▶ Ejecutar pruebas
+cd pruebas-interaccion/selenium-tests
+mvn test
+
+##📊 Resultado esperado
+Tests run: X
+Failures: 0
+Errors: 0
+BUILD SUCCESS
+
+##🧪 Escenarios automatizados
+✔ Compra exitosa
+✔ Compra sin datos (validación de errores)
+✔ Flujo completo de checkout
+
+---
+
+#🔥 4️⃣ Pruebas de Carga – JMeter
+##📁 Ubicación
+pruebas-carga/
+
+##▶ Ejecutar
+1. Abrir Apache JMeter
+2. Cargar archivo .jmx
+3. Configurar número de usuarios
+4. Ejecutar prueba
+
+##📊 Métricas recomendadas
+Throughput
+Tiempo promedio de respuesta
+Percentil 90 / 95
+Error rate
+
+
+
