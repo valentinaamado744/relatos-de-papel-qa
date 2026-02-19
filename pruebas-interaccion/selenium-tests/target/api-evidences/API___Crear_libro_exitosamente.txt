@@ -1,0 +1,39 @@
+=== TEST EVIDENCE ===
+Test: API - Crear libro exitosamente
+Date: 2026-02-18T20:26:27.746351900
+
+REQUEST:
+POST /api/books
+
+BODY:
+{
+    "title": "Libro Test Automatizado",
+    "author": "QA Master",
+    "isbn": "1234567899999",
+    "price": 40.0,
+    "stock": 20,
+    "category": "Testing",
+    "publicationDate": null,
+    "rating": 5,
+    "visible": true,
+    "coverImageUrl": null
+}
+
+
+RESPONSE STATUS:
+201
+
+RESPONSE BODY:
+{
+    "id": 17,
+    "title": "Libro Test Automatizado",
+    "author": "QA Master",
+    "isbn": "1234567899999",
+    "price": 40.0,
+    "stock": 20,
+    "category": "Testing",
+    "publicationDate": null,
+    "rating": 5,
+    "visible": true,
+    "coverImageUrl": null
+}

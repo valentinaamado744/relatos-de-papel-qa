@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.relatosdepapel.api.BooksApiTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.965 s -- in com.relatosdepapel.api.BooksApiTest

@@ -1,0 +1,35 @@
+REQUEST:
+PUT /api/books/29
+
+BODY:
+{
+  "title": "Libro Test Actualizado",
+  "author": "QA Master",
+  "isbn": "ISBN1771510009116",
+  "price": 50000.0,
+  "stock": 10,
+  "category": "Testing",
+  "publicationDate": "2024-02-01",
+  "rating": 4,
+  "visible": true,
+  "coverImageUrl": null
+}
+
+
+RESPONSE STATUS:
+200
+
+RESPONSE BODY:
+{
+    "id": 29,
+    "title": "Libro Test Actualizado",
+    "author": "QA Master",
+    "isbn": "ISBN1771510009116",
+    "price": 50000.0,
+    "stock": 10,
+    "category": "Testing",
+    "publicationDate": "2024-01-01",
+    "rating": 4,
+    "visible": true,
+    "coverImageUrl": null
+}

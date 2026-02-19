@@ -1,0 +1,39 @@
+=== TEST EVIDENCE ===
+Test: API - Actualizar libro existente
+Date: 2026-02-18T20:25:46.970775800
+
+REQUEST:
+PUT /api/books/16
+
+BODY:
+{
+    "title": "Libro Test Actualizado",
+    "author": "QA Master",
+    "isbn": "9999999999999",
+    "price": 50.0,
+    "stock": 10,
+    "category": "Testing",
+    "publicationDate": null,
+    "rating": 4,
+    "visible": true,
+    "coverImageUrl": null
+}
+
+
+RESPONSE STATUS:
+200
+
+RESPONSE BODY:
+{
+    "id": 16,
+    "title": "Libro Test Actualizado",
+    "author": "QA Master",
+    "isbn": "9999999999999",
+    "price": 50.0,
+    "stock": 10,
+    "category": "Testing",
+    "publicationDate": null,
+    "rating": 4,
+    "visible": true,
+    "coverImageUrl": null
+}

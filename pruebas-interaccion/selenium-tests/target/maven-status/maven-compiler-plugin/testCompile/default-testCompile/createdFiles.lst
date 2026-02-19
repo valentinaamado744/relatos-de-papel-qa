@@ -1,0 +1,6 @@
+com\relatosdepapel\pages\LoginPage.class
+com\relatosdepapel\pages\CheckoutPage.class
+com\relatosdepapel\runners\TestRunner.class
+com\relatosdepapel\steps\CheckoutSteps.class
+com\relatosdepapel\base\BaseTest.class
+com\relatosdepapel\pages\HomePage.class

@@ -1,0 +1,5 @@
+REQUEST:
+DELETE /api/books/29
+
+RESPONSE STATUS:
+204

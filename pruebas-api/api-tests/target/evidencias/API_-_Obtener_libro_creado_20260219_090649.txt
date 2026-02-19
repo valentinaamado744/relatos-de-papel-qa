@@ -1,0 +1,20 @@
+REQUEST:
+GET /api/books/29
+
+RESPONSE STATUS:
+200
+
+RESPONSE BODY:
+{
+    "id": 29,
+    "title": "Libro Test Automatizado",
+    "author": "QA Master",
+    "isbn": "ISBN1771510006828",
+    "price": 40000.00,
+    "stock": 20,
+    "category": "Testing",
+    "publicationDate": "2024-01-01",
+    "rating": 5,
+    "visible": true,
+    "coverImageUrl": null
+}

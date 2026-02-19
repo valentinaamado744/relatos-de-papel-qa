@@ -1,0 +1,9 @@
+=== TEST EVIDENCE ===
+Test: API - Eliminar libro
+Date: 2026-02-18T20:25:47.049882600
+
+REQUEST:
+DELETE /api/books/16
+
+RESPONSE STATUS:
+204

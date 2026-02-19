@@ -1,0 +1,15 @@
+=== TEST EVIDENCE ===
+Test: API - Validar que el libro eliminado no exista
+Date: 2026-02-18T20:25:47.072788600
+
+REQUEST:
+GET /api/books/16
+
+RESPONSE STATUS:
+400
+
+RESPONSE BODY:
+{
+    "error": "Invalid data",
+    "message": "Book not found"
+}

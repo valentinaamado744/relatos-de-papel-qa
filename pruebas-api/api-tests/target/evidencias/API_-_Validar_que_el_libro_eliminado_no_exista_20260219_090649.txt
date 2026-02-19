@@ -1,0 +1,11 @@
+REQUEST:
+GET /api/books/29
+
+RESPONSE STATUS:
+400
+
+RESPONSE BODY:
+{
+    "error": "Invalid data",
+    "message": "Book not found"
+}
