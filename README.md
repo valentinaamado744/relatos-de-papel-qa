@@ -79,9 +79,10 @@ pruebas-aceptacion/cypress/screenshots/
 pruebas-api/api-tests
 
 ## ▶ Ejecutar pruebas
+```bash
 cd pruebas-api/api-tests
 mvn clean test
-
+```
 ## 📊 Resultado esperado
 Tests run: 5
 Failures: 0
@@ -105,9 +106,10 @@ Cada prueba genera un archivo .txt con:
 pruebas-interaccion/selenium-tests
 
 ## ▶ Ejecutar pruebas
+```bash
 cd pruebas-interaccion/selenium-tests
 mvn test
-
+```
 ## 📊 Resultado esperado
 Tests run: X
 Failures: 0
